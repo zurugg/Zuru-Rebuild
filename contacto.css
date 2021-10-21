@@ -211,7 +211,7 @@ justify-content: center;
 
     .background {
 
-        background-image: url(/imagenes/Landscape-12.jpg);
+        background-image: url(imagenes/Landscape-12.jpg);
         background-size: 240%;
         background-repeat: no-repeat;
         display: flex;
@@ -315,7 +315,7 @@ justify-content: center;
 
     .background {
 
-        background-image: url(/imagenes/Landscape-12.jpg);
+        background-image: url(imagenes/Landscape-12.jpg);
         background-size: 320%;
         background-repeat: no-repeat;
         display: flex;
@@ -408,7 +408,7 @@ justify-content: center;
     
     .background {
 
-        background-image: url(/imagenes/Landscape-12.jpg);
+        background-image: url(imagenes/Landscape-12.jpg);
         background-size: 410%;
         background-repeat: no-repeat;
         display: flex;
