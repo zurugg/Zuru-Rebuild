@@ -102,7 +102,7 @@ align-content: center;
 
 .background {
 
-    background-image: url(../imagenes/Landscape-12.jpg);
+    background-image: url(imagenes/Landscape-12.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
