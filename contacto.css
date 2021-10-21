@@ -78,6 +78,7 @@ align-content: center;
 
 .boton-contacto {
 
+    text-decoration: none;
     margin: 1px 10px;
     padding: 1px 5px;
     right: 100;
