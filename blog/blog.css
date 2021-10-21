@@ -112,7 +112,7 @@ align-content: center;
 
 .background {
 
-    background-image: url("/imagenes/Landscape-25.jpg");
+    background-image: url("../imagenes/Landscape-25.jpg");
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ align-content: center;
 
 .background-interno {
 
-    background-image: url("/imagenes/Landscape-22.jpg");
+    background-image: url("../imagenes/Landscape-22.jpg");
     background-size: 200%;
     background-repeat: no-repeat;
 
