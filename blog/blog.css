@@ -1,0 +1,740 @@
+body {
+
+    margin: 0;
+    font-family: monospace;
+    
+}
+
+/*barra de navegación*/
+
+.navbar {
+
+    margin: 0;
+    max-width: 100%;
+    max-height: 50px;
+    background-color: rgb(32, 32, 32);
+
+    
+}
+
+.div-tomas {
+
+align-content: center;
+    max-height: 28px;
+    /*margin: 10px 35%;*/
+
+}
+
+.navbar-item-container {
+
+    margin: 0;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.lista-navbar {
+    
+    display: inline;
+    list-style: none;
+
+}
+
+.navbar-item {
+
+    margin: 0px 12px;
+    padding: 0px 5px;
+    display: inline;
+    justify-content: space-around;
+    list-style: none;
+    color: whitesmoke;
+    font-family:monospace;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.15s;
+
+}
+
+.navbar-item:hover {
+
+    background-color:rgba(196, 196, 196, 0.3) ;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tomas-zurueta {
+
+    margin: 0px 30px;
+    padding: 1px 5px;
+    list-style: none;
+    color: whitesmoke;
+    font-family:monospace;
+    font-size: 2em;
+    max-height: 28px;
+    
+
+}
+
+.boton-contacto {
+
+    margin: 1px 10px;
+    padding: 1px 5px;
+    right: 100;
+    list-style: none;
+    color: whitesmoke;
+    background-color:rgb(216, 190, 44);
+    border: none;
+    border-radius: 6px;
+    font-family:monospace;
+    font-size: 1.5em;
+    transition: 0.15s;
+    cursor: pointer;
+
+}
+
+.boton-contacto:hover{
+
+    background-color:rgb(236, 211, 69);
+
+}
+
+.contacto {
+
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+/*background*/
+
+.background {
+
+    background-image: url("/imagenes/Landscape-25.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.background-interno {
+
+    background-image: url("/imagenes/Landscape-22.jpg");
+    background-size: 200%;
+    background-repeat: no-repeat;
+
+}
+
+
+/*blogs en cuadritos*/
+
+.link-blog {
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.blog-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+
+/*cajitas*/
+
+.cajita-blog {
+
+    text-align: center;
+    margin: 32px;
+    width: 256px;
+    height: 324px;
+    padding-top: 20px;
+    background-color:rgba(29, 29, 29, 0.3);
+    border: none;
+    border-radius: 25px;
+    transition: 1s;
+
+
+}
+
+.cajita-blog:hover {
+
+    background-color:rgba(119, 119, 119, 0.3);
+
+}
+
+.thumbnail {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 24%;
+    max-width: 50%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.thumbnail:hover {
+
+    max-width: 55%;
+
+}
+
+.titulo-blog {
+
+    margin: 12px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bolder;
+
+}
+
+.descripcion-blog {
+
+    margin: 12px;
+    color: white;
+    font-size: 1em;
+    background-color: rgba(196, 196, 196, 0.1);
+    padding: 8px;
+    border-radius: 10px;
+
+}
+
+/*diseño interno de los blogs*/
+
+.navbar-vacia {
+
+    margin: 0;
+    background-color: rgb(41, 41, 41);
+    padding-bottom: 6px;
+    
+}
+
+/*navbar interna*/
+
+.boton-volver {
+
+    margin: 14px;
+    padding: 4px 20px;
+    background-color: rgba(252, 103, 103, 0.95);
+    border: none;
+    border-radius: 16px;
+    font-size: 24px;
+    transition: 0.3s;
+
+}
+
+.boton-volver:hover {
+
+    background-color: rgb(226, 27, 27);
+}
+
+.volver {
+
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+
+/*blog*/
+
+
+
+.inicio-blog {
+
+    text-align: center;
+
+}
+
+.titulo-blog-interno {
+
+    margin: 0px auto;
+    width: 500px;
+    padding: 22px;
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(77, 77, 77, 0.62);
+    box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+
+}
+
+.descipcion-blog-interno {
+
+    color: white;
+    width: 520px;
+    padding: 14px;
+    margin: 12px auto;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(77, 77, 77, 0.62);
+    box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+
+}
+
+
+.texto {
+
+    color: rgb(255, 251, 248);
+    font-size: 20px;
+    line-height: 36px;
+    padding: 2px 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(202, 202, 202, 0.22);
+    box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+
+}
+
+.panel-blog {
+
+    margin: 0 40px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(197, 197, 197, 0.22);
+    box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 14px 43px -19px rgba(0,0,0,0.5);
+
+}
+
+
+/*imagenes dentro del blog*/
+
+.blog-img-interno {
+
+margin: 3px 30%;
+border-radius: 25px;
+max-width: 33%;
+
+}
+
+#jeff-bezos-1 {
+
+    margin: 3px 30%;
+border-radius: 25px;
+max-width: 33%;
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .navbar {
+
+        margin: 0;
+        max-width: 100%;
+        max-height: 70px;
+        background-color: rgb(32, 32, 32);
+    
+        
+    }
+
+    
+    .navbar-item-container {
+    
+        margin: 0;
+        padding: 24px 0;
+        display: flex;
+        justify-content: space-around;
+    
+    
+    }
+    
+    .navbar-item {
+    
+        margin: 0px 12px;
+        padding: 0px 5px;
+        display: inline;
+        justify-content: space-around;
+        list-style: none;
+        color: whitesmoke;
+        font-family:monospace;
+        font-size: 1.1em;
+        transition: 0.15s;
+    
+    }
+    
+    .tomas-zurueta {
+    
+        margin: 0px 15px;
+        padding: 1px 5px;
+        list-style: none;
+        color: whitesmoke;
+        font-family:monospace;
+        font-size: 1.3em;
+        max-height: 28px;
+        transition: 0.15s;
+        cursor: pointer;
+    
+    }
+    
+    .boton-contacto {
+    
+        margin: 1px 11px;
+        padding: 1px 5px;
+        right: 80;
+        list-style: none;
+        color: whitesmoke;
+        background-color:rgb(216, 190, 44);
+        border: none;
+        border-radius: 6px;
+        font-family:monospace;
+        font-size: 1.3em;
+        transition: 0.15s;
+        cursor: pointer;
+    
+    }
+
+    .background-interno {
+
+        background-image: url("/imagenes/Landscape-22.jpg");
+        background-size: 600%;
+        background-repeat: no-repeat;
+    
+    }
+    
+
+}
+
+@media screen and (max-width: 426px) {
+
+    .background-interno {
+
+        background-image: url("/imagenes/Landscape-22.jpg");
+        background-size: 1300%;
+        background-repeat: no-repeat;
+    
+    }
+
+
+    .blog-container{
+
+        transform: scale(90%);
+    }
+
+    .navbar {
+
+        margin: 0;
+        max-width: 100%;
+        max-height: 50px;
+        background-color: rgb(32, 32, 32);
+    
+        
+    }
+    
+    
+    .navbar-item-container {
+    
+        margin: 0;
+        padding: 12px 0;
+        display: flex;
+        justify-content: space-around;
+    
+    
+    }
+    
+    .navbar-item {
+    
+        margin: 0px 2px;
+        padding: 0px 5px;
+        display: inline;
+        justify-content: space-around;
+        list-style: none;
+        color: whitesmoke;
+        font-family:monospace;
+        font-size: 0.8em;
+        transition: 0.15s;
+    
+    }
+    
+
+    
+    .tomas-zurueta {
+    
+        margin: 0px 6px;
+        padding: 1px 5px;
+        list-style: none;
+        color: whitesmoke;
+        font-family:monospace;
+        font-size: 0.6em;
+        max-height: 28px;
+        
+    
+    }
+    
+    .boton-contacto {
+    
+        margin: 1px 10px;
+        padding: 0px 5px;
+        right: 100;
+        list-style: none;
+        color: whitesmoke;
+        background-color:rgb(216, 190, 44);
+        border: none;
+        border-radius: 6px;
+        font-family:monospace;
+        font-size: 0.5em;
+        transition: 0.15s;
+        cursor: pointer;
+    
+    }
+
+    /*blog*/
+
+    .titulo-blog-interno {
+
+        margin: 0px auto;
+        width: 300px;
+        padding: 22px;
+        font-size: 42px;
+
+    
+    }
+    
+    .descipcion-blog-interno {
+    
+        width: 320px;
+        padding: 14px;
+        margin: 12px auto;
+    
+    }
+    
+    
+    .texto {
+        
+        margin: 0;
+        font-size: 20px;
+        line-height: 36px;
+        padding: 2px 6px;
+
+    
+    }
+    
+    .panel-blog {
+    
+        margin: 0 10px;
+        padding: 10px 8px;
+
+    
+    }
+    
+    
+    /*imagenes dentro del blog*/
+    
+    .blog-img-interno {
+    
+    margin: 3px 15%;
+    border-radius: 25px;
+    max-width: 66%;
+    
+    }
+    
+    #jeff-bezos-1 {
+
+        margin: 3px 15%;
+        border-radius: 25px;
+        max-width: 66%;
+
+    
+    }
+    
+    
+}
+
+@media screen and (max-width:375px) {
+
+    .background-interno {
+
+        background-image: url("/imagenes/Landscape-22.jpg");
+        background-size: 2200%;
+        background-repeat: no-repeat;
+    
+    }
+
+    .blog-container{
+
+        transform: scale(80%);
+    }
+
+    .navbar {
+
+        margin: 0;
+        max-width: 100%;
+        max-height: 50px;
+        background-color: rgb(32, 32, 32);
+    
+        
+    }
+    
+    .navbar-item-container {
+    
+        margin: 0;
+        padding: 8px 0;
+        display: flex;
+        justify-content: space-around;
+    
+    
+    }
+    
+    .navbar-item {
+    
+        margin: 0px 2px;
+        padding: 0px 5px;
+        display: inline;
+        justify-content: space-around;
+        list-style: none;
+        color: whitesmoke;
+        font-family:monospace;
+        font-size: 0.5em;
+        transition: 0.15s;
+    
+    }
+
+    .tomas-zurueta {
+    
+        margin: 0px 6px;
+        padding: -7px 5px;
+        list-style: none;
+        color: whitesmoke;
+        font-family:monospace;
+        font-size: 0.4em;
+        max-height: 10px;
+        transition: 0.15s;
+        cursor: pointer;
+    
+    }
+
+    .boton-contacto {
+    
+        margin: 1px 6px;
+        padding: 0px 5px;
+        right: 100;
+        list-style: none;
+        color: whitesmoke;
+        background-color:rgb(216, 190, 44);
+        border: none;
+        border-radius: 6px;
+        font-family:monospace;
+        font-size: 0.3em;
+        transition: 0.15s;
+        cursor: pointer;
+    
+    }
+
+    
+    /*imagenes dentro del blog*/
+    
+    .blog-img-interno {
+    
+    margin: 3px 15%;
+    border-radius: 25px;
+    max-width: 66%;
+    
+    }
+    
+    #jeff-bezos-1 {
+
+        margin: 3px 15%;
+        border-radius: 25px;
+        max-width: 66%;
+
+    
+    }
+    
+    /*blog*/
+
+
+
+    .titulo-blog-interno {
+
+        margin: 0px auto;
+        width: 250px;
+        font-size: 24px;
+
+    
+    }
+    
+    .descipcion-blog-interno {
+    
+        width: 260px;
+        padding: 0px;
+        margin: 12px auto;
+    
+    }
+    
+    
+    .texto {
+        
+        margin: 0;
+        font-size: 20px;
+        line-height: 36px;
+        padding: 2px 6px;
+
+    
+    }
+    
+    .panel-blog {
+    
+        margin: 0 10px;
+        padding: 10px 8px;
+
+    
+    }
+    
+    
+    
+    .texto {
+        
+        margin: 0;
+        font-size: 20px;
+        line-height: 36px;
+        padding: 2px 6px;
+
+    
+    }
+    
+    .panel-blog {
+    
+        margin: 0 10px;
+        padding: 10px 8px;
+
+    
+    }
+    
+    
+    /*imagenes dentro del blog*/
+    
+    .blog-img-interno {
+    
+    margin: 3px 15%;
+    border-radius: 25px;
+    max-width: 66%;
+    
+    }
+    
+    #jeff-bezos-1 {
+
+        margin: 3px 15%;
+        border-radius: 25px;
+        max-width: 66%;
+
+    
+    }
+    
+}
