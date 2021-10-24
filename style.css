@@ -114,7 +114,7 @@ align-content: center;
 .primer-background {
 
     background-image: url("imagenes/Landscape-4.jpg");
-    background-size: 100%;
+    background-size: 120%;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
